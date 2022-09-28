@@ -10,7 +10,7 @@
     <title> Laventure adventures </title>
 
     <!-- Css link -->
-    <link rel= "stylesheet" href= "Booking-app/booking.css">
+    <link rel= "stylesheet" type="text/css" href="booking.css">
 
 </head>
 
@@ -63,7 +63,7 @@
 
         <div>
             <label> Number of children: </label>
-            <input class="noc" type="number" required="true"> </n>
+            <input class="noc" type="number" required="true"> <br>
         </div>
 
         <div>

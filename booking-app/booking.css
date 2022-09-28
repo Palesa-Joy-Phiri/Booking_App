@@ -8,8 +8,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 165vh;
 
+    background-image: url(../booking-app/images/setai-kh-penthouseb-pool-1566480093.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 
@@ -17,28 +22,33 @@ h1 {
     color: white;
     text-align: center;
     margin-bottom: 10px;
+    font-size: 35px;
 }
 
-h3 {
+h2 {
     text-align: center;
     color: rgb(84, 213, 213);
     margin-bottom: 20px;
+    font-size: 25px;
 }
 
-/*.formdiv img {  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+img {  
+    height: 40vh;
+    width: 25vw;
+    top: -540px;
+    right: 530px;
     position: relative;
-}*/
+}
 
 form {
     padding: 30px;
     background-color: rgb(11, 109, 109);
     border-radius: 15px;
-    width: 430px;
+    width: 530px;
     border: 2px solid;
+    border-color: white;
     position: absolute;
+    margin-left: 58%;
 }
 
 input {
@@ -55,13 +65,13 @@ input {
 label {
     padding: 10px;
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
 select {
     display: block;
-    width: 95% ;
+    width: 92% ;
     border: 2px solid;
     padding: 10px;
     margin: 10px auto;
@@ -71,7 +81,7 @@ select {
 }
 
 button {
-    margin-left: 80%;
+    margin-left: 75%;
     border-radius: 9px;
     background-color: rgb(84, 213, 213);
     padding: 7px;
@@ -81,7 +91,7 @@ a {
     text-decoration: none;
     color: black;
 
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
 
 }

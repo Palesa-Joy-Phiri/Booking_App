@@ -20,11 +20,13 @@
     <nav>
     </nav>
 
-
+    <div>
+        <img src="../booking-app/images/Black & White Minimalist Business Logo.png">
+    </div>
     <form>
         <h1> Welcome to paradise, let't embark on this journey! </h1>
 
-        <h3> Check availabilty </h3>
+        <h2> Check availabilty </h2>
 
         <div>
             <label> Name: </label>
